@@ -33,11 +33,11 @@ It includes the following pages:
 <%= notes_end %>
 {:/nomarkdown}
 
-Some document formats other than HTML, such as PDF, may provide similar mechanisms to markup table structures. Most word processing applications however do not provide mechanisms to markup tables. Tables markup is also often lost when converting from one format to another, though some programs may provide functionality to assist converting table markup.
+Some document formats other than HTML, such as PDF, may provide similar mechanisms to markup table structures. However, most word processing applications do not provide mechanisms to markup tables. Tables markup is also often lost when converting from one format to another, though some programs may provide functionality to assist converting table markup.
 
 ## Why is this important?
 
-Tables without structural markup to differentiate between header and data cells, and to define the relationship between, them create accessibility barriers. Visual clues only are not sufficient to create an accessible table. With structural markup, headers and data cells can be programmatically determined by software, which means that:
+Tables without structural markup to differentiate between header and data cells, and to define the relationship between them, create accessibility barriers. Visual clues only are not sufficient to create an accessible table. With structural markup, headers and data cells can be programmatically determined by software, which means that:
 
 -   **People using screen readers** can have the row and column headers read aloud as they navigate through the table. Screen readers speak one cell at a time and reference the associated header cells, so the user never loses context.
 
